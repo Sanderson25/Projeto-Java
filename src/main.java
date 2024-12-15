@@ -1,8 +1,7 @@
-import models.estudante;
-import models.professor;
-
 import java.util.ArrayList;
 import java.util.Scanner;
+import models.estudante;
+import models.professor;
 
 public class main {
     public static void main(String[] args) {
@@ -11,7 +10,7 @@ public class main {
         ArrayList<professor> professores = new ArrayList<>();
 
         
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 3; i++) {
             System.out.println("=== Cadastro de Estudante ===");
             System.out.print("Nome: ");
             String nome = scanner.nextLine();
@@ -31,7 +30,7 @@ public class main {
         }
 
         
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 3; i++) {
             System.out.println("=== Cadastro de Professor ===");
             System.out.print("Nome: ");
             String nome = scanner.nextLine();
